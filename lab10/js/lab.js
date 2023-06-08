@@ -1,5 +1,5 @@
 // index.js - The purpose is to experiment with JavaScript events.
-// INCLUDE
+// Here, I write functions that take in a name input and scrambles the letters.
 // Author: Stephanie He
 // Date: May 16, 2023
 
