@@ -18,4 +18,20 @@
     background-color: rgb(250, 250, 172);
     font-family: monospace;
   }
+
+
+
+  .Challenge {
+    color: gray;
+  }
+  .Problem {
+    color: gray;
+  }
+  .Results{
+    color: gray;
+  }
+  #target {
+    font-weight: bold;
+    font-size: 10px;
+  }
   
