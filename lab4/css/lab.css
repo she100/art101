@@ -8,3 +8,13 @@
     border: solid 1px #ec7171;
     background-color: #3ddca7;
   }
+
+h1 {
+    color:fuchsia
+    font-size: 140%
+}
+
+p {
+    text-indent: 17px;
+    margin-left: 14px;
+}
