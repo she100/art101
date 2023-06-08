@@ -14,19 +14,19 @@ function Steph(x){
 
 // This is where the function gets tested
 console.log("what is 4-3?", Steph(1));
+console.log("Who didn't eat nine?", Steph(7));
 
 
-// Multiplies all the array values with 2
-const = [2, 4, 6, 8, 10];
-const newArr = numbers.map(Start)
+// Provides an array
+array = [2, 4, 6, 8, 10];
+console.log("This is an array", array);
 
-function Start(num){
-    return num * 2
-}
+var result = array.map(Steph);
+console.log("Test if this array is long", result);
 
-console.log
-
-
+var result = array.map(function(x){
+  return x ** 5;
+})
 
 
 
