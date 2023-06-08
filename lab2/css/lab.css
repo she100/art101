@@ -29,4 +29,11 @@ p {
     margin: 11px;
     border: solid 3px rgba(114, 27, 255, 0.133);
     font-size: 17px;
+
+}
+
+#border {
+    border-style: dotted;
+    width:200px;
+    height:200 px;
 }
