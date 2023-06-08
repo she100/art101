@@ -13,6 +13,7 @@ function Steph(x){
 
 
 // This is where the function gets tested
+console.log("what is 4-3?", Steph(1));
 
 
 // Multiplies all the array values with 2
@@ -22,6 +23,8 @@ const newArr = numbers.map(Start)
 function Start(num){
     return num * 2
 }
+
+console.log
 
 
 
