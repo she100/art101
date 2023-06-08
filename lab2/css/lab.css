@@ -6,4 +6,15 @@
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #a181d5;
+    title-color: 
   }
+
+  h1 {
+    color:fuchsia
+    font-size: 140%
+}
+
+p {
+    text-indent: 24px;
+    margin-left: 14px;
+}
