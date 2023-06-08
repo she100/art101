@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - The purpose of Lab 3 is to create a local file structure on my computer, add index.html files, and upload them to the server.
+// description here
+// Author: Stephanie He
+// Date: April 20, 2023
 
 // Constants
 
