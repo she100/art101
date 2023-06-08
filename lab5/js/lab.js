@@ -15,8 +15,13 @@ color = "white";
 age = 2023 - year;
 
 
-// Output
+// Outputs
 document.writeln("Make: " + make + "<br>");
+document.writeln("Model:" + model + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Age: " + age + " years<br>");
+
 
 
 
