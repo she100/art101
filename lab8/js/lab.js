@@ -17,7 +17,7 @@ console.log("what is 4-3?", Steph(1));
 
 
 // Multiplies all the array values with 2
-const = [2, 4, 6, 8, 10]
+const = [2, 4, 6, 8, 10];
 const newArr = numbers.map(Start)
 
 function Start(num){
