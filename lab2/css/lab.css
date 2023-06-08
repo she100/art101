@@ -22,9 +22,9 @@ p {
 }
 
 #content {
-    background-color:rgb(147, 10, 147);
-    width: 300px;
-    min-height: 150px;
+    background-color:rgb(172, 129, 172);
+    width: 600px;
+    min-height: 440px;
     padding: 12px;
     margin: 11px;
     border: solid 3px rgba(114, 27, 255, 0.133);
