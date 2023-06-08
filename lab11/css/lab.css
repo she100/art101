@@ -21,15 +21,13 @@
 
 
 
-  .btn btn-secondary highlight-button {
-    color: gray;
+  .btn-secondary {
+    background-color: rgb(111, 74, 56);
   }
-  .Problem {
-    color: gray;
+  .btn {
+    color: rgb(223, 121, 121);
   }
-  .Results{
-    color: gray;
-  }
+
   #target {
     font-weight: bold;
     font-size: 10px;
