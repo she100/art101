@@ -22,12 +22,7 @@ array = [2, 4, 6, 8, 10];
 console.log("This is an array", array);
 
 var result = array.map(Steph);
-console.log("Test if this array is long", result);
-
-var result = array.map(function(x){
-  return x ** 5;
-})
-
+console.log("Show that this array is long", result);
 
 
 // Constants
