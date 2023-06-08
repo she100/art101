@@ -23,8 +23,8 @@ p {
 
 #content {
     background-color:rgb(172, 129, 172);
-    width: 600px;
-    height: 440px;
+    width: 800px;
+    height: 780px;
     padding: 12px;
     margin: 11px;
     border: solid 3px rgba(114, 27, 255, 0.133);
@@ -35,5 +35,5 @@ p {
 #border {
     border-style: dotted;
     width:800px;
-    height:700 px;
+    height:200 px;
 }
