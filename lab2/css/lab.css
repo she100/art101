@@ -21,7 +21,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-#border {
+#content {
     background-color:rgb(147, 10, 147);
     width: 300px;
     min-height: 150px;
