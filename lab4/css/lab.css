@@ -5,6 +5,14 @@
     padding: 10px;
     margin-bottom: 10px;
     text-indent: 17 px;
-    border: solid 1px #ec7171;
-    background-color: #3ddca7;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+    
   }
+
+  #content {
+    background-color:rgb(255, 239, 216);
+    width: 1800px;
+    height: 2200px;
+
+}
