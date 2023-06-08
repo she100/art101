@@ -4,7 +4,7 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
+    border: solid 4px #888;
     background-color: #a181d5;
     title-color: 
   }
@@ -16,5 +16,5 @@
 
 p {
     text-indent: 24px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
