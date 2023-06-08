@@ -5,7 +5,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    background-color: gray;
   }
 
 
@@ -14,3 +14,8 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+#content {
+  background-color: white;
+  font-family:'Times New Roman', Times, serif
+
+}
