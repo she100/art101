@@ -27,13 +27,8 @@ p {
     height: 780px;
     padding: 12px;
     margin: 11px;
-  
     font-size: 17px;
+    outline: dotted 20px yellow;
+    outline-offset: -30x;
 
-}
-
-#border {
-    border-style: dotted;
-    width:800px;
-    height:200 px;
 }
