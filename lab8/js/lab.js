@@ -1,7 +1,7 @@
 // index.js - The purpose here is to create anon functions and callbacks
-// Function time
+// Function and results time!
 // Author: Stephanie He
-// Date: May 2, 2023
+// Date: May 9, 2023
 
 
 // Function Steph
