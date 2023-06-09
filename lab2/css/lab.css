@@ -23,8 +23,8 @@ p {
 
 #content {
     background-color:rgb(172, 129, 172);
-    outline: dotted 33px yellow;
-    outline-offset: 33x;
-    padding: 20px;
+    outline: dotted 23px yellow;
+    outline-offset: 23x;
+    padding: 10px;
     border: solid 1px;
 }
