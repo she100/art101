@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - The purpose of this lab is to debug.
+// In this lab, I fixed my errors that I left behind the last time I completed Lab 2.
+// Author: Stephanie He
+// Date: May 30, 2023
 
 // Constants
 
