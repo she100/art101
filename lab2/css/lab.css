@@ -24,7 +24,7 @@ p {
 #content {
     background-color:rgb(172, 129, 172);
     outline: dotted 20px yellow;
-    outline-offset: -20x;
+    outline-offset: 13x;
     padding: 50px;
     border: solid 1px;
     min-height: 70vh;
