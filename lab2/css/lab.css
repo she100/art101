@@ -7,7 +7,7 @@
     border: solid 8px #4f81ff;
     background-color: #d4c8e8;
     title-color: 
-  }
+}
 
   h1 {
     color:rgb(21, 0, 255);
@@ -23,14 +23,10 @@ p {
 
 #content {
     background-color:rgb(172, 129, 172);
-    width: 1800px;
-    height: 780px;
-    padding: 12px;
-    margin: 11px;
-    font-size: 17px;
     outline: dotted 20px yellow;
     outline-offset: -20x;
-    border: 2px;
+    padding: 50px;
+    border: solid 1px;
     min-height: 70vh;
 
 }
