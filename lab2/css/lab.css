@@ -5,17 +5,17 @@
 /*Header*/
 .minor-section 
 h1 {
-    font-family: "Impact"
-    color: rgb(255, 70, 70)
+    font-family: "Impact";
+    color:blueviolet;
     padding: 20px;
     margin-bottom: 10px;
     border: solid 1px #888;
     background-color: #C8A2C8;
   }
 
+/*This is for the smaller text*/
 p {
   font-family: "Courier New";
   margin-left: 15px;
-
 }
 
