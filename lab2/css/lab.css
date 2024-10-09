@@ -4,25 +4,33 @@
 
 /*Header*/
 .minor-section 
-h1 {
+h2 {
     font-family: "Impact";
-    color: purple;
+    color: rgba(93, 131, 98, 0.819);
     font-stretch: expanded;
   }
+
+  h1 {
+    color: rgb(150, 197, 255);
+
+  }
+
 
 /*This is for the smaller text*/
 p {
   font-family: "Courier New";
   margin-left: 15px;
+  color: black;
 }
 
 
+
 #content {
-  color:rgb(255, 255, 255);
+  color:white;
   padding: 20px;
   margin-bottom: 10px;
-  border: solid 1px #ffffff;
+  border: solid 3px #ffffff;
+  border-style: dotted;
   background-color: #C8A2C8;
-
 
 }
