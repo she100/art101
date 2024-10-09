@@ -6,11 +6,8 @@
 .minor-section 
 h1 {
     font-family: "Impact";
-    color:blueviolet;
-    padding: 20px;
-    margin-bottom: 10px;
-    border: solid 1px #ffffff;
-    background-color: #C8A2C8;
+    color: purple;
+    font-stretch: expanded;
   }
 
 /*This is for the smaller text*/
@@ -19,3 +16,10 @@ p {
   margin-left: 15px;
 }
 
+
+
+color:blueviolet;
+padding: 20px;
+margin-bottom: 10px;
+border: solid 1px #ffffff;
+background-color: #C8A2C8;
