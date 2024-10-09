@@ -12,6 +12,7 @@ h2 {
 
   h1 {
     color: rgb(150, 197, 255);
+    font-size: 70px;
 
   }
 
@@ -21,10 +22,11 @@ p {
   font-family: "Courier New";
   margin-left: 15px;
   color: black;
+  text-indent: 4%;
 }
 
 
-
+/*This is for */
 #content {
   color:white;
   padding: 20px;
