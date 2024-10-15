@@ -46,7 +46,6 @@ p {
 
 
 #cat-photo img {
-width: 1800px;
-
+  width: 400px;
+  /* max-width: 50%; */
 }
-
