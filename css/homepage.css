@@ -3,4 +3,10 @@
 .cat-photo {
   margin: 80px;
   max-width: 500px;
+  
+}
+
+.my-selfie {
+  margin: 80px;
+  max-width: 300px;
 }
