@@ -1,6 +1,8 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js
+// Pool game
+// An implementation of the pool game in JavaScript
+// Author: Stephanie He she100@ucsc.edu
+// Date: October 16, 2024
 
 // Constants
 
@@ -19,3 +21,12 @@ function main() {
 
 // let's get this party started
 main();
+
+
+
+/*
+
+comments
+
+*/
+

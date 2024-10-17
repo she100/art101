@@ -7,3 +7,25 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+
+
+.minor-section {
+h3 {
+    font-family: "Arial";
+  }
+
+h4 {
+    font-family: "Arial"
+    font-size: 20px;
+}
+}
+
+.comments {
+  max-width: 800px;
+}
+
+.indexhtml {
+  max-width: 800px;
+
+}
