@@ -15,8 +15,7 @@ year = 2023;
 age = 2024 - year;
 
 // Output
-
-
+document.writeln("Make: " + make + "<br>");
 
 // Constants
 
