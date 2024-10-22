@@ -1,6 +1,7 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 6
+// Experiment with JavaScript arrays and objects.
+// Author: Stephanie
+// Date: October 24, 2024
 
 // Constants
 
