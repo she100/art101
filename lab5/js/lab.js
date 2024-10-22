@@ -1,6 +1,8 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5
+// Experiment with basic JavaScript data types and variables in order to
+// understand JavaScript better.
+// Author: Stephanie He
+// Date: October 21, 2024
 
 // Constants
 
