@@ -4,6 +4,20 @@
 // Author: Stephanie He
 // Date: October 21, 2024
 
+
+// Define Variables
+make = "Toyota";
+model = "RAV4";
+color = "dark gray";
+year = 2023;
+
+// Calculate
+age = 2024 - year;
+
+// Output
+
+
+
 // Constants
 
 // Functions
