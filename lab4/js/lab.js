@@ -4,6 +4,17 @@
 // Author: Stephanie He she100@ucsc.edu
 // Date: October 16, 2024
 
+// Print the required graphics while game is in progress
+  // Assign objects and their values and conditions
+    // Print objects with proper properties of physics
+  // Loop
+    // User with solid balls takes a turn
+    // Changes happen with appropriate result
+    // User with striped balls takes a turn
+  // Loop ends when win conditions are met
+// Print end of game screen
+
+
 // Constants
 
 // Functions
@@ -21,12 +32,4 @@ function main() {
 
 // let's get this party started
 main();
-
-
-
-/*
-
-comments
-
-*/
 
