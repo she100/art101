@@ -36,11 +36,13 @@ p {
 
 .MainRide {
   max-width: 500px;
+  margin-left: 12%;
 }
 
 .Road {
   max-width: 400px;
   max-height: 462px;
+  margin-left: 13%;
 }
 
 
