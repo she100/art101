@@ -14,19 +14,24 @@ h3 {
 }
 
 h1, h2 {
-  color: rgba(72, 157, 110, 0.722);
+  color: rgb(41, 113, 73);
 
 }
 
 #content {
 color:rgb(55, 0, 255);
+background-color: #ffffff;
+}
 
+p {
+  color: purple;
 }
 
 
 .minor-section {
   margin: 70px;
   width: 1200px;
+  background-color: rgba(83, 142, 196, 0.707);
 }
 
 .MainRide {
@@ -38,6 +43,8 @@ color:rgb(55, 0, 255);
   max-height: 462px;
 }
 
-#images {
-  text-align: center;
+
+body {
+  background-color: #a4d0ff;
+
 }
