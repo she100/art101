@@ -21,7 +21,7 @@ myMainRide = {
 // Output
 document.writeln("Here are my methods of transportation that I use: ", myTransport, "</br>");
 // Printing an object to the document
-document.writeln("Here is my Main Ride: <pre>"
+document.writeln("Here is my Main Ride: <pre>",
   JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
 
