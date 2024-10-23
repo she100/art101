@@ -9,6 +9,32 @@
   }
 
 h3 {
-  color: rgba(242, 255, 143, 0.941);
+  color:rgb(55, 0, 255);
 
+}
+
+h1, h2 {
+  color: rgba(72, 157, 110, 0.722);
+
+}
+
+#content {
+color:rgb(55, 0, 255);
+
+}
+
+
+.minor-section {
+  margin: 70px;
+  width: 1200px;
+}
+
+.MainRide {
+  max-width: 500px;
+  text-align: center;
+}
+
+.Road {
+  max-width: 400px;
+  text-align: center;
 }
