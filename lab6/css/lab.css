@@ -31,10 +31,13 @@ color:rgb(55, 0, 255);
 
 .MainRide {
   max-width: 500px;
-  text-align: center;
 }
 
 .Road {
   max-width: 400px;
+  max-height: 462px;
+}
+
+#images {
   text-align: center;
 }
