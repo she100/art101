@@ -33,15 +33,16 @@ function sortYourName(){
 
 }
 
-if (userName !=){
-  document.getElementById("demo").innerHTML =
-  "My Name is: " + sortYourName;
-}
-
 
 // Output
 document.writeln("Here's your new name, I hope you like it: ",
   sortYourName(), "</br>");
+
+
+//testing
+if (userName !=null){
+  document.getElementById("demo").innerHTML = "Here's your new name, I hope you like it: " + sortYourName(), ("</br>");
+}
 
 
 
