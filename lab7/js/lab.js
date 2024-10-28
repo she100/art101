@@ -6,7 +6,7 @@
 // New Function that receives input from the user, sorts the letters,
 // and prints a new name.
 function sortYourName(){
-  var userName = window.prompt("Hello! Please give me your name so I can change it");
+  var userName = window.prompt("Hello! Please give me your name so I can change it :)");
   console.log("userName =", userName);
 
   // Split the string to an array
