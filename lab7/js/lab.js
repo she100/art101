@@ -9,12 +9,11 @@ function sortYourName(){
   var userName = window.prompt("Hello! Please give me your name so I can change it :)");
   console.log("userName =", userName);
 
-
-
-  //if (userName !=null){
-  ///  document.getElementById("demo").innerHTML =
-  //  "Hello " + userName + "! How are you?";
- //}
+// what is this?
+if (userName !=null){
+  document.getElementById("demo").innerHTML =
+  "Hello " + userName + "! How are you?";
+}
 
   // Split the string to an array
   var nameArray = userName.split('');
