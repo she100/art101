@@ -5,7 +5,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #303030ce;
+    background-color: #a8a8a8ce;
   }
 
 h3 {
@@ -20,7 +20,7 @@ h1, h2 {
 
 #content {
 color:rgb(137, 74, 74);
-background-color: #f5ebc2a4;
+background-color: #e5d38ec9;
 }
 
 p {
@@ -31,5 +31,5 @@ p {
 .minor-section {
   margin: 70px;
   width: 1200px;
-  background-color: rgba(0, 131, 253, 0.707);
+  background-color: rgba(203, 141, 48, 0.93);
 }
