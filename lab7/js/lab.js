@@ -31,6 +31,7 @@ function sortYourName(){
   // Give the new name
   return nameSorted;
 
+
 }
 
 
@@ -39,11 +40,10 @@ document.writeln("Here's your new name, I hope you like it: ",
   sortYourName(), "</br>");
 
 
-//testing
-if (userName !=null){
-  document.getElementById("demo").innerHTML = "Here's your new name, I hope you like it: " + sortYourName(), ("</br>");
-}
-
+  if (userName !=null){
+    document.getElementById("demo").innerHTML = "Here's your new name, I hope you like it: " + sortYourName();
+  }
+  
 
 
 
