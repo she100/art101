@@ -12,7 +12,7 @@ function sortYourName(){
 // what is this?
 if (userName !=null){
   document.getElementById("demo").innerHTML =
-  "Hello " + userName + "! How are you?";
+  "Here's your new name, I hope you like it: " + userName;
 }
 
   // Split the string to an array
