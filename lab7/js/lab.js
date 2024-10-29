@@ -12,7 +12,7 @@ function sortYourName(){
 // what is this?
 if (userName !=null){
   document.getElementById("demo").innerHTML =
-  "Here's your new name, I hope you like it: " + userName;
+ "Here's your new name, I hope you like it: " + userName;
 }
 
   // Split the string to an array
@@ -30,11 +30,10 @@ if (userName !=null){
   // Give the new name
   return nameSorted;
 
-
 }
 
 
-// Output
+// Output in script output section
 document.writeln("Here's your new name, I hope you like it: ",
   sortYourName(), "</br>");
 

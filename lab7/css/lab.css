@@ -9,7 +9,8 @@
   }
 
 h3 {
-  color:rgb(55, 0, 255);
+  color:rgb(255, 255, 255);
+  font-size: 40px;
 
 }
 
@@ -33,3 +34,4 @@ p {
   width: 1200px;
   background-color: rgba(203, 141, 48, 0.93);
 }
+
