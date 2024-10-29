@@ -46,7 +46,6 @@ document.writeln("Here's your new name, I hope you like it: ",
 
 
 
-
 // Stuff that came with the file automatically
 // Constants
 // Functions
