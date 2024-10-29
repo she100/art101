@@ -17,7 +17,7 @@ if (userName !=null){
 
   // Split the string to an array
   var nameArray = userName.split('');
-  console.log("nameArray =", nameArraySort);
+  console.log("nameArray =", nameArray);
 
   // Sort the array
   var nameArraySort = nameArray.sort();
