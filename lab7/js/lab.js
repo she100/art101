@@ -9,12 +9,7 @@ function sortYourName(){
   // Window takes in user input (done)
   var userName = window.prompt("Hello! Please give me your name so I can change it :)");
   console.log("userName =", userName);
-
-// Prints onto website 
-if (userName !=null){
-  document.getElementById("demo").innerHTML =
- "Here's your new name, I hope you like it: " + userName;
-}
+  
 
   // Split the string to an array (done)
   var nameArray = userName.split('');
@@ -38,7 +33,7 @@ if (userName !=null){
 document.writeln("Here's your new name, I hope you like it: ",
   sortYourName(), "</br>");
 
-
+// Prints onto website 
   if (userName !=null){
     document.getElementById("demo").innerHTML = "Here's your new name, I hope you like it: " + sortYourName();
   }
