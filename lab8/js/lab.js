@@ -1,16 +1,40 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 8
+// Experiment with anonymous functions and callbacks.
+// Author: Stephanie He
+// Date: October 31, 2024
 
-// Constants
 
 // Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function isOdd(x) {
+  var results = (x % 2 == 1);
+  return results;
 }
+
+// Test the function
+console.log("Is 11 odd?", isOdd(11));
+console.log("Is 22 odd?", isOdd(22));
+
+
+// ARRAY OF NUMBERS
+array = [2, 4, 6, 8, 1, 3, 5, 7]
+console.log("My array", array);
+
+// Variable
+var mapResults = array.map(isOdd);
+// Console.log should return [false, false, false, false, true, true, true, true].
+console.log("Here is a test of oddness in my array:", result);
+
+// Adding a new variable to the function
+var result = array.map(function(x){
+  return (x+12);
+})
+
+// Should return array [14, 16, 18, 20, 13, 15, 17, 19]
+console.log("An addition of 12 to the array:", result);
+
+
+
+
 
 function main() {
   console.log("Main function started.");
