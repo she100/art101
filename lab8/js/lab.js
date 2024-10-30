@@ -32,7 +32,11 @@ var result = array.map(function(x){
 // Should return array [14, 16, 18, 20, 13, 15, 17, 19]
 console.log("An addition of 12 to the array:", result);
 
+// My map results data
+var mapResults = "Your map results here";
 
+//jQuery to select the elements by its ID and set the HTML content
+$("#output").html(mapResults);
 
 
 
