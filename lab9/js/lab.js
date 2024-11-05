@@ -1,6 +1,13 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 9
+// With a partner, experiment with jQuery
+// Modifies the elements on the page
+// Author: Stephanie He
+// Date: October 4, 2024
+
+
+
+
+
 
 // Constants
 

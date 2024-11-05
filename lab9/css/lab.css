@@ -12,3 +12,11 @@
   max-width: 800px;
 }
 
+
+
+.special {
+  background-color: palevioletred;
+  border: dotted 30px rgba(249, 254, 149, 0.792);
+  color: rgb(255, 154, 154);
+  font-style: italic;
+}
