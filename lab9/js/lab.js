@@ -4,16 +4,30 @@
 // Author: Stephanie He
 // Date: October 4, 2024
 
-// challenge button
+// add challenge button to html
 $("#challenge").append("<button id='button-challenge'>Press me!!!</button>");
 
-// click listener for challenge button
-$("button-challenge").click(function(){
-    $("#challenge").toggleClass("special");
+
+// challenge event listener
+$("#button-challenge").click(function(){
+  // console.log to show if the button is clickable when you press inspect -> console.
+  console.log("click");
+  // add or subtract the "special" class to the section
+  $("challenge").toggleClass("special");
+
 });
 
 
 
+
+
+
+
+
+// click listener for challenge button
+//$("button-challenge").click(function(){
+ //   $("#challenge").toggleClass("special");
+//});
 
 
 // Constants
