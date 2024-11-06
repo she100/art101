@@ -4,6 +4,13 @@
 // Author: Stephanie He
 // Date: October 4, 2024
 
+// challenge button
+$("#challenge").append("<button id='button-challenge'>Press me!!!</button>");
+
+// click listener for challenge button
+$("button-challenge").click(function(){
+    $("#challenge").toggleClass("special");
+});
 
 
 
