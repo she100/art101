@@ -4,7 +4,8 @@
 // Author: Stephanie He
 // Date: October 4, 2024
 
-
+// console.log("click!"); allows you to see if your button is
+// clickable in the inspect console window.
 
 
 // CHALLENGES
@@ -32,6 +33,7 @@ $("#problem").append("<button id='button-problem'>Make Special</button>");
 
 // problem click listener
 $("#button-problem").click(function(){
+  console.log("click!");
   // add or subtract "special" class to the section
   $("#problem").toggleClass("special");
 
@@ -50,6 +52,7 @@ $("#reflection").append("<button id='button-reflection'>Make Special</button>");
 
 // reflection click listener
 $("#button-reflection").click(function(){
+  console.log("click!");
   // add or subtract "special" class to the section
   $("reflection").toggleClass("special");
 });
@@ -69,6 +72,7 @@ $("#results").append("<button id='button-results'>Make Special</button>");
 
 // results click listener
 $("#button-results").click(function(){
+  console.log("click!");
   // add or subtract "special" class to the section
   $("#results").toggleClass("special");
 });
