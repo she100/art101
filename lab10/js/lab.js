@@ -1,49 +1,33 @@
-// index.js - Lab 9
-// With a partner, experiment with jQuery
+// index.js - Lab 10: JavaScript for the Web
+// With a partner, experiment with DOM manipulation.
 // Modifies the elements on the page
 // Author: Stephanie He
-// Date: October 4, 2024
-
-// add challenge button to html
-$("#challenge").append("<button id='button-challenge'>Press me!!!</button>");
+// Date: November 7, 2024
 
 
-// challenge event listener
-$("#button-challenge").click(function(){
-  // console.log to show if the button is clickable when you press inspect -> console.
-  console.log("click");
-  // add or subtract the "special" class to the section
-  $("challenge").toggleClass("special");
+// Function
+// Fake Dialogue
 
-});
+function generateRandomDialogue() {
+  const text = "Hi! How are you? My name is Stephanie. And some other random words.";
+  const min = 3;
+  const max = 5;
+  const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
 
+  // random starting index to slice the text
+  const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
+  
+  // Generate random text
+  return text.slice(randStart, randStart + randLen);
 
-
-
-
-
-
-
-// click listener for challenge button
-//$("button-challenge").click(function(){
- //   $("#challenge").toggleClass("special");
-//});
-
-
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
-// let's get this party started
-main();
+
+
+
+
+
+
+
+
