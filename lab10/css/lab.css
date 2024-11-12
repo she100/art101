@@ -21,3 +21,16 @@
   font-style: italic;
 }
 
+
+
+.text p {
+  display: inline-block;
+  max-width: 80%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(232, 144, 192);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8em;
+}
