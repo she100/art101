@@ -4,8 +4,8 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #ffffff;
+    background-color: #f3e1e1;
   }
 
 .file {
@@ -23,14 +23,15 @@
 
 
 
+
 .text p {
   display: inline-block;
   max-width: 80%;
-  margin: 3px;
+  margin: 7px;
   padding: 5px 10px;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: rgb(232, 144, 192);
   color: white;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
