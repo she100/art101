@@ -4,10 +4,10 @@
 // Author: Stephanie He
 // Date: November 7, 2024
 
+//please push qiuckly
 
 // Function
 // Fake Dialogue
-
 function generateRandomWords() {
   const text = `Can you take a look inside your heart? Is there any room for me?
 I won't have to hold my breath 'til you get down on one knee because
@@ -32,7 +32,8 @@ He doesn't see ya, you're not looking at me, boy`;
   }
   // Generate the random text, breaking at the nearest whitespace boundaries
   let selectedText = text.slice(randStart, endIndex).trim();
-  // Capitalize the first letter of the selected text
+  
+  // Return the randomized text.
   return selectedText;
 }
 
