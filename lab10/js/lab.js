@@ -4,7 +4,6 @@
 // Author: Stephanie He
 // Date: November 7, 2024
 
-//please push qiuckly
 
 // Function
 // Fake Dialogue
