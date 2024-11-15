@@ -12,12 +12,3 @@
   max-width: 800px;
 }
 
-
-
-.special {
-  background-color: rgb(121, 105, 171);
-  border: dotted 30px rgba(255, 255, 255, 0.792);
-  color: rgb(93, 129, 174);
-  font-style: oblique;
-}
-
