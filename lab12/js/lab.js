@@ -31,6 +31,7 @@ function sortingHat(str) {
 }
 
 
+
 // Click listener attached to #button
 // Declare the variable myButton, connected to "button" in html
 var myButton = document.getElementById("button");
@@ -42,55 +43,17 @@ myButton.addEventListener("click", function(){
 
 })
 
+$("button").click(function(){
+  var name = $("#input").val()
+  console.log(name);
+
+
+})
 
 
 
-
-
-
-
-
-
-
-
-
-
-// From lab 10
-// Function that sorts a string
-function sortString(inputString) {
-  // Convert our string to an array and back again to sort it
-  return inputString.split('').sort().join('');
-}
-
-
-
-
-
-// Event listener for button
-// Click listener
-$("#submit").click(function(){
-  // get value of input field
-  const userName = $("#user-name").val();
-
-  // sort it
-  userNameSorted = sortString(userName);
-
+$(document).ready(function(){
+  $("#form-to-be-submitted").click(function(){
+      $(".whatever-styling-you-want").html($("#textBox").val());
+    });
 });
-
-
-// Select output div and append a new div, with modified user name
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
-
-
-
-
-
-// Output in script output section
-document.writeln("Test: ",
-  sortString(), "</br>");
-
-// Prints onto website 
-  if (userName !=null){
-    document.getElementById("demo").innerHTML = "Test: " + sortString();
-  }
-  
