@@ -1,7 +1,58 @@
-// index.js - Lab 11: JavaScript Events and forms
-// With a partner, experiment with JavaScript events.
+// index.js - Lab 12: Conditionals
+// Working with a partner, create a function that depends on conditionals.
 // Author: Stephanie He
-// Date: November 11, 2024
+// Date: November 14, 2024
+
+
+// FUNCTION
+function sortingHat(str) {
+  // counts the letters in str
+  // then assigns to variable length
+  length = str.length;
+
+  // modulus remainder % operator to get remainder with 4: mod = length % 4;
+  mod = length % 4;
+  // mod will now be a value between 0 and 3
+  if (mod == 0) {
+    return "Gryffindor"
+  }
+  else if (mod == 1) {
+    return "Ravenclaw"
+  }
+  else if (mod == 2) {
+    return "Slytherin"
+  }
+  else if (mod == 3) {
+    return "Hufflepuff"
+  }
+  // conditional that returns Gryffindor, Ravenclaw, Slytherin, & Hufflepuff
+  // depending on whether the value of mod is 0, 1, 2, or 3.
+
+}
+
+
+// Click listener attached to #button
+// Declare the variable myButton, connected to "button" in html
+var myButton = document.getElementById("button");
+myButton.addEventListener("click", function(){
+  var name = document.getElementById("input").value;
+  var house = sortingHat(name);
+  newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
+  document.getElementById("output").innerHTML = newText;
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // From lab 10
@@ -34,24 +85,12 @@ $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 
 
 
+// Output in script output section
+document.writeln("Test: ",
+  sortString(), "</br>");
 
-// Function for sorting a string, alphabetically
-function sortString(inputString) {
-  // Convert string to an array
-  // Then bring it back to sort it
-  return inputString.split('').sort().join('');
-}
-
-
-// Click listener for button
-$("#submit").click(function(){
-  // Get value of input field
-  const userName = $("#user-name").val();
-  // Sort the name using function
-  userNameSorted = sortString(userName);
-
-  return userNameSorted;
-});
-
-// Adds a new div tag to our output div
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+// Prints onto website 
+  if (userName !=null){
+    document.getElementById("demo").innerHTML = "Test: " + sortString();
+  }
+  
