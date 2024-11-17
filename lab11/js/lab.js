@@ -34,24 +34,12 @@ $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 
 
 
+// Output in script output section
+document.writeln("Test: ",
+  sortString(), "</br>");
 
-// Function for sorting a string, alphabetically
-function sortString(inputString) {
-  // Convert string to an array
-  // Then bring it back to sort it
-  return inputString.split('').sort().join('');
-}
-
-
-// Click listener for button
-$("#submit").click(function(){
-  // Get value of input field
-  const userName = $("#user-name").val();
-  // Sort the name using function
-  userNameSorted = sortString(userName);
-
-  return userNameSorted;
-});
-
-// Adds a new div tag to our output div
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+// Prints onto website 
+  if (userName !=null){
+    document.getElementById("demo").innerHTML = "Test: " + sortString();
+  }
+  
