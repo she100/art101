@@ -1,7 +1,7 @@
-// index.js - Lab 12: Conditionals
-// Working with a partner, create a function that depends on conditionals.
+// index.js - Lab 13: Loops
+// Working with a partner, experiment with loops.
 // Author: Stephanie He
-// Date: November 14, 2024
+// Date: November 18, 2024
 
 
 // FUNCTION
