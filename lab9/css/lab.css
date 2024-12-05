@@ -15,9 +15,9 @@
 
 
 .special {
-  background-color: palevioletred;
+  background-color: rgb(112, 190, 216);
   border: dotted 30px rgba(249, 254, 149, 0.792);
-  color: rgb(255, 154, 154);
+  color: rgb(191, 154, 255);
   font-style: italic;
 }
 

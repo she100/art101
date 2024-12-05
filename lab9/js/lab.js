@@ -2,7 +2,7 @@
 // With a partner, experiment with jQuery
 // Modifies the elements on the page
 // Author: Stephanie He
-// Date: October 4, 2024
+// Date: November 4, 2024
 
 // console.log("click!"); allows you to see if your button is
 // clickable in the inspect console window.
@@ -54,7 +54,7 @@ $("#reflection").append("<button id='button-reflection'>Make Special</button>");
 $("#button-reflection").click(function(){
   console.log("click!");
   // add or subtract "special" class to the section
-  $("reflection").toggleClass("special");
+  $("#reflection").toggleClass("special");
 });
 // END OF RESULTS
 
