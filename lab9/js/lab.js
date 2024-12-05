@@ -7,7 +7,6 @@
 // console.log("click!"); allows you to see if your button is
 // clickable in the inspect console window.
 
-
 // CHALLENGES
 // add challenge button to html
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
@@ -19,13 +18,6 @@ $("#button-challenge").click(function(){
   $("#challenge").toggleClass("special");
 });
 // END OF CHALLENGES
-
-
-
-
-
-
-
 
 // PROBLEMS
 // add button for problem section
@@ -41,11 +33,6 @@ $("#button-problem").click(function(){
 // END OF PROBLEMS
 
 
-
-
-
-
-
 // REFLECTION
 // add button to reflection section
 $("#reflection").append("<button id='button-reflection'>Make Special</button>");
@@ -57,14 +44,6 @@ $("#button-reflection").click(function(){
   $("#reflection").toggleClass("special");
 });
 // END OF RESULTS
-
-
-
-
-
-
-
-
 
 // RESULTS
 // add button to results section
@@ -81,7 +60,7 @@ $("#button-results").click(function(){
 
 
 
-
+// Code Formula
 // // challenge event listener
 // $("#button-challenge").click(function(){
 //   // console.log to show if the button is clickable when you press inspect -> console.
@@ -91,23 +70,3 @@ $("#button-results").click(function(){
 
 // });
 
-
-
-
-
-
-
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
