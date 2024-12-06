@@ -35,3 +35,10 @@
   font-family: 'Times New Roman', Times, serif;
   font-size: 0.9em;
 }
+
+
+#activate {
+  color: rgb(53, 93, 80);
+  width: 100px;
+  height: 140px;
+}
