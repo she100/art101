@@ -5,22 +5,12 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #ffffff;
-    background-color: #f3e1e1;
+    background-color: #f8deca;
   }
 
 .file {
   max-width: 800px;
 }
-
-
-
-.special {
-  background-color: palevioletred;
-  border: dotted 30px rgba(249, 254, 149, 0.792);
-  color: rgb(255, 154, 154);
-  font-style: italic;
-}
-
 
 
 
