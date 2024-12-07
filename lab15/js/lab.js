@@ -4,46 +4,45 @@
 // Date: November 25, 2024
 
 
-// CHALLENGES
-// add challenge button to html
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+URL = "https://yesno.wtf/#api"
 
-// challenger click listener
-$("#button-challenge").click(function(){
-  console.log("click!");
-  // Add or subtract the "special" class to the section
-  $("#challenge").toggleClass("special");
-});
-// END OF CHALLENGES
-
-
-
-
-
-// Using the core $.ajax() method
-$.ajax({
-    // The URL for the request (from the api docs)
-    url: "https://yourapiendpoint.com/",
-    // The data to send (will be converted to a query string)
-    data: { 
-            // here is where any data required by the api 
-            //   goes (check the api docs)
-            id: 123,
-            api_key: "blahblahblah",
-          },
-    // Whether this is a POST or GET request
-    type: "GET",
-    // The type of data we expect back
-    dataType : "json",
-    // What do we do when the api call is successful
-    //   all the action goes in here
-    success: function(data) {
-        // do stuff
+// Click function
+$('#action').click(function(){
+    // $.ajax() method
+    $.ajax({
+        // The URL for the request (ENDPOINT)
+        url: URL,
+        // The data to send (will be converted to a query string)
+        data: { api_key: RgNBs4TjYNVjwPSQLLvkMtIj4zOflKWVB3TikTry},
+        // Whether this is a POST or GET request
+        type: "GET",
+        // The type of data we expect back
+        dataType : "json",
+        {
+          "answer": "yes",
+          "forced": false,
+          "image": "https://yesno.wtf/assets/yes/2.gif"
+        }
+        success: function(data);
+          // do stuff
         console.log(data);
-    },
-    // What we do if the api call fails
-    error: function (jqXHR, textStatus, errorThrown) { 
-        // do stuff
-        console.log("Error:", textStatus, errorThrown);
-    }
-})
+        },
+        // When the api fails,
+        error: function (jqXHR, textStatus, errorThrown) {
+          console.log("Error:", textStatus, errorThrown);
+        }
+    })
+    // If the request succeeds
+    .done(function(data) {
+        console.log(data);
+        // make our JSON data printable
+        var printableData = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+        // put data in webpage
+        $("#output").append("<p>" + JSON.stringify(data));
+        $("#output").append("<p>Yes or No?: <b>" + data.activity);
+        $("#title").html(data.title)
+        $("#output").append("<img src=" + data.url + ">");
+        $("#output").append("<p>" + data.explanation);
+    })
+  });
+
